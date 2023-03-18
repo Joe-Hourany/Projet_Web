@@ -1,7 +1,6 @@
 import pandas as pd
 import streamlit as st
 import sqlite3
-from IPython.display import display, FileLink
 import numpy as np
 import random
 import matplotlib.pyplot as plt
@@ -422,9 +421,10 @@ def explore_data(df):
 
 
 #######################################################################################################################################
-'''
-This is the same function as explore_data
-'''
+
+#This is the same function as explore_data
+
+
 ##########################################################################################################################################
 
 def explore_data_after_cleaning(df):
